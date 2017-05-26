@@ -1,5 +1,7 @@
 CHANGELOG
 ---------
+- **May.26.17**:2.0.2
+  - Patch rubyzip
 - **November.25.12**:1.3.4
   - Support for headers and footers for worksheets
   - bug fix: Properly escape hyperlink urls
@@ -54,7 +56,7 @@ CHANGELOG
    - added in interop requirements so that charts are properly exported
      to PDF from Libra Office
    - various readability improvements and work standardizing attribute
-     names to snake_case. Aliases are provided for backward compatiblity 
+     names to snake_case. Aliases are provided for backward compatiblity
 - **June.11.12**: 1.1.7 release
    - fix chart rendering issue when label offset is specified as a
      percentage in serialization and ensure that formula are not stored
@@ -236,4 +238,3 @@ in value caches
   - Updated documentation
 
 ##October.20.11: 0.1.0 release
-
